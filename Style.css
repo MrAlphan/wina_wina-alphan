@@ -1,0 +1,24 @@
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #;
+    --text-color: #fff;
+    --main-color: #4CD0ED;
+}
+
+
+
+
+
+@media
+screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+@media
+screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+}
+@media screen and (min)
