@@ -6,30 +6,72 @@
     <title>Portofolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<!--la bare de navigation !-->
+<!-- header !-->²
 <body>
-    <header id="navbar">
-        <div id="logo">Alphan W.</div>
-        <nav>
+    <header class="header">
+        <a href class="logo">Alphan W.</a>
+        <a href class="menu_icon"><i class='bx bx-menu'></i></a>
+
+<!--la bare de navigation !-->
+        <nav class="navbar">
             <ul>
-                <li><a href="Accueil.html">Accueil</a></li>
-                <li><a href="CV.html">CV</a></li>
-                <li><a href="Projets.html">Projets</a></li>
+                <li><a class="marked" href="Accueil.html">Accueil</a></li>
+                <li><a class="marked" href="CV.html">CV</a></li>
+                <li><a class="marked" href="Projets.html">Projets</a></li>
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <!-- section d'une introduction!-->
     <main>
-        <div class="hero_img">
+        
+        <section class="hero_section">
+            
+            <div class="home-img">
             <img src="assets/accueil.png" alt="Image de profil">
         </div>
-        <section class="hero_section">
-            <h1>Bienvenue</h1>
-            <p>Bonjour! Je suis Alphan WINA WINA, un développeur passionné par la création de solutions innovantes. J'aime relever des défis techniques et apprendre de nouvelles technologies.</p>
+
+        <div class="home-text">
+            <h3>Salut c'est Moi</h3>
+            <h1>Alphan WINA WINA</h1>
+            <h3>Et je suis <span class="highlight">Développeur Fullstack </span></h3>
+            <p>Passionné par la création 
+                de solutions innovantes. <br>J'aime relever des défis techniques et apprendre de 
+                nouvelles technologies.</p>
+
+              <div class="cta">
+                <a href="CV.html" class="btn">Voir mon CV</a>
+                <a href="Contact.html" class="btn">Me contacter</a>
+              </div>
+        </div>
+    
         </section>
 
-        
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h3>Numéro de téléphone</h3>
+                <p>+243 83 53 24 890</p>
+            </div>
 
+            <div>
+            <h3>Email</h3>
+            <p>alphanisungu@gmail.com</p>
+           </div>
+            
+            <div id="socials_side">
+                <h3>Suivez-moi</h3>
+            <ul class="socials">
+                <li><a href="#"><img src="assets/bxl-github.svg" alt="GitHub" width="30"></a></li>
+                <li><a href="#"><img src="assets/bxl-linkedin.svg" alt="LinkedIn" width="30"></a></li>
+                <li><a href="#"><img src="assets/twitter-x.svg" alt="Twitter" width="30"></a></li>
+            </ul>
+            </div>
+        <div>
+            <p>&copy; 2025 Alphan WINA WINA. </p>
+        </div>
+        </div>
+    </footer>
 </body>
 </html>
